@@ -1,5 +1,5 @@
 " Edit vimr configuration file
-nnoremap <Leader>ve :e $HOME/.vimrc<CR>
+nnoremap <Leader>ve :e $HOME/.vim_runtime/my_configs.vim<CR>
 
 " Define some conda things
 function! CondaActivate(env)
