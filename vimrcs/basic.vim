@@ -116,6 +116,10 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
 
 " Properly disable sound on errors on MacVim
 if has("gui_macvim")
@@ -226,7 +230,7 @@ map <leader>l :bnext<cr>
 map <leader>h :bprevious<cr>
 
 " Useful mappings for managing tabs
-map <leader>tn :tabnew<cr>
+map <leader>tn :tabnew %<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
