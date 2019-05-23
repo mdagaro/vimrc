@@ -2,19 +2,29 @@
 nnoremap <Leader>ve :e $HOME/.vim_runtime/my_configs.vim<CR>
 
 " Define some conda things
-function! CondaActivate(env)
-    let cmdline=printf("!conda activate %s", a:env)
-    exe cmdline
-endfunction
-command! -nargs=1 CondaActivate call CondaActivate(<f-args>)
-
-
-function! CondaDeactivate(env)
-    let cmdline=printf("!conda deactivate %s", a:env)
-    exe cmdline
-endfunction
-command! -nargs=1 CondaDeactivate call CondaDeactivate(<f-args>)
+if executable("conda")
+    function! CondaActivate(env)
+        let cmdline=printf("!conda activate %s", a:env)
+        exe cmdline
+    endfunction
+    command! -nargs=1 CondaActivate call CondaActivate(<f-args>)
+    
+    function! CondaDeactivate(env)
+        let cmdline=printf("!conda deactivate %s", a:env)
+        exe cmdline
+    endfunction
+    command! -nargs=1 CondaDeactivate call CondaDeactivate(<f-args>)
+endif
 
 command! -nargs=* Python :!python % <args>
 
+" Commenting for apache servers
 au BufNewFile,BufRead *.conf.tmpl let &l:commentstring='#%s'
+
+" NERDTree settings
+try
+    let NERDTreeQuitOnOpen=1
+    let NERDTreeMinimalUI = 1
+    let NERDTreeDirArrows = 1
+    let NERDTreeAutoDeleteBuffer = 1
+endtry
