@@ -28,7 +28,11 @@ map <leader>o :BufExplorer<cr>
 " => MRU plugin
 """"""""""""""""""""""""""""""
 let MRU_Max_Entries = 400
-map <leader>f :MRU<CR>
+try
+    map <leader>f :NERDTreeClose<CR>:MRU<CR>
+catch
+    map <leader>f :MRU<CR>
+endtry
 
 
 """"""""""""""""""""""""""""""
