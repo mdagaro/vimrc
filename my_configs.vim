@@ -21,6 +21,7 @@ command! -nargs=* Python :!python % <args>
 " Commenting for apache servers
 au BufNewFile,BufRead *.conf.tmpl let &l:commentstring='#%s'
 
+autocmd QuickFixCmdPost Ggrep* cwindow
 
 " NERDTree settings
 try
