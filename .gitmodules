@@ -31,9 +31,6 @@
 [submodule "my_plugins/vim-commentary"]
 	path = my_plugins/vim-commentary
 	url = https://github.com/tpope/vim-commentary
-[submodule "my_plugins/vim-expand-region"]
-	path = my_plugins/vim-expand-region
-	url = https://github.com/terryma/vim-expand-region
 [submodule "my_plugins/vim-fugitive"]
 	path = my_plugins/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
