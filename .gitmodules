@@ -73,3 +73,6 @@
 [submodule "my_plugins/tlib"]
 	path = my_plugins/tlib
 	url = https://github.com/tomtom/tlib_vim
+[submodule "my_plugins/vim-surround"]
+	path = my_plugins/vim-surround
+	url = https://github.com/tpope/vim-surround
