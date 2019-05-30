@@ -36,3 +36,11 @@ endtry
 try
     let g:bufExplorerDefaultHelp=1
 endtry
+
+try
+    " Colorscheme
+    set background=dark
+    colorscheme ir_black
+catch
+    colorscheme desert
+endtry
