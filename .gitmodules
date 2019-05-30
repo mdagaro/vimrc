@@ -67,3 +67,6 @@
 [submodule "my_plugins/vim-addon-mw-utils"]
 	path = my_plugins/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils
+[submodule "my_plugins/indentpython.vim"]
+	path = my_plugins/indentpython.vim
+	url = https://github.com/vim-scripts/indentpython.vim
