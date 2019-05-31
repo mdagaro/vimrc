@@ -44,3 +44,10 @@ try
 catch
     colorscheme desert
 endtry
+
+try
+    let g:pymode_options_colorcolumn = 0
+    let g:pymode_options_max_line_length = 80
+    let g:pymode_lint_checkers = ['black', 'pep8']
+    let g:pymode_lint_ignore = ["E501", "W",]
+endtry
