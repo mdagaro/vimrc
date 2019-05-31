@@ -76,3 +76,6 @@
 [submodule "my_plugins/vim-surround"]
 	path = my_plugins/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "my_plugins/python-mode"]
+	path = my_plugins/python-mode
+	url = https://github.com/python-mode/python-mode
