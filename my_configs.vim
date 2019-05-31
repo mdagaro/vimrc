@@ -40,7 +40,7 @@ endtry
 try
     " Colorscheme
     set background=dark
-    colorscheme ir_black
+    colorscheme peaksea
 catch
     colorscheme desert
 endtry
@@ -48,6 +48,6 @@ endtry
 try
     let g:pymode_options_colorcolumn = 0
     let g:pymode_options_max_line_length = 80
-    let g:pymode_lint_checkers = ['black', 'pep8']
+    let g:pymode_lint_checkers = ['black']
     let g:pymode_lint_ignore = ["E501", "W",]
 endtry
