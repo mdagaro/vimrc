@@ -79,3 +79,6 @@
 [submodule "my_plugins/python-mode"]
 	path = my_plugins/python-mode
 	url = https://github.com/python-mode/python-mode
+[submodule "my_plugins/black"]
+	path = my_plugins/black
+	url = https://github.com/python/black
