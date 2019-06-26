@@ -34,9 +34,6 @@
 [submodule "my_plugins/vim-fugitive"]
 	path = my_plugins/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "my_plugins/vim-indent-object"]
-	path = my_plugins/vim-indent-object
-	url = https://github.com/michaeljsmith/vim-indent-object
 [submodule "my_plugins/vim-multiple-cursors"]
 	path = my_plugins/vim-multiple-cursors
 	url = https://github.com/michaeljsmith/vim-indent-object
