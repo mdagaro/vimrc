@@ -6,6 +6,7 @@ au BufNewFile,BufRead *.conf.tmpl let &l:commentstring='#%s'
 
 autocmd QuickFixCmdPost Ggrep* cwindow
 au BufRead,BufNewFile *.md setlocal textwidth=80
+au FocusGained :e!
 
 " NERDTree settings
 try
@@ -14,7 +15,6 @@ try
     let NERDTreeDirArrows=1
     let NERDTreeAutoDeleteBuffer=1
     autocmd StdinReadPre * let s:std_in=1
-    autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 endtry
 
 try
