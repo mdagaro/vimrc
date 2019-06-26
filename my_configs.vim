@@ -6,7 +6,7 @@ au BufNewFile,BufRead *.conf.tmpl let &l:commentstring='#%s'
 
 autocmd QuickFixCmdPost Ggrep* cwindow
 au BufRead,BufNewFile *.md setlocal textwidth=80
-au FocusGained :e!
+au FocusGained * :e!
 
 " NERDTree settings
 try
@@ -39,7 +39,6 @@ endtry
 " Black settings
 try
     let g:black_linelength = 80
-    autocmd BufWrite *.py :py3 Black()
 endtry
 
 try
