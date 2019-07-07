@@ -6,6 +6,7 @@ au BufNewFile,BufRead *.conf.tmpl let &l:commentstring='#%s'
 
 autocmd QuickFixCmdPost Ggrep* cwindow
 au BufRead,BufNewFile *.md setlocal textwidth=80
+au BufRead,BufNewFile *.man setlocal textwidth=80
 au FocusGained * :e!
 
 " NERDTree settings
