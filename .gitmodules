@@ -82,3 +82,6 @@
 [submodule "my_plugins/vim-tmux-navigator"]
 	path = my_plugins/vim-tmux-navigator
 	url = git://github.com/christoomey/vim-tmux-navigator.git
+[submodule "my_plugins/vim-indentwise"]
+	path = my_plugins/vim-indentwise
+	url = git://github.com/jeetsukumaran/vim-indentwise
