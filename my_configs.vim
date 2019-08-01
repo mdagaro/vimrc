@@ -1,5 +1,5 @@
 " Edit vimr configuration file
-nnoremap <Leader>ve :tabnew $HOME/.vim_runtime/my_configs.vim<CR>
+nnoremap <Leader>ve :tabnew $HOME/dotfiles/vim/my_configs.vim<CR>
 
 " Commenting for apache servers
 au BufNewFile,BufRead *.conf.tmpl let &l:commentstring='#%s'
@@ -7,7 +7,8 @@ au BufNewFile,BufRead *.conf.tmpl let &l:commentstring='#%s'
 autocmd QuickFixCmdPost Ggrep* cwindow
 au BufRead,BufNewFile *.md setlocal textwidth=80
 au BufRead,BufNewFile *.man setlocal textwidth=80
-au FocusGained * :e!
+au FocusGained,BufEnter * :silent! !
+au FocusLost,WinLeave * :silent! w
 
 " NERDTree settings
 try
