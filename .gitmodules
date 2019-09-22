@@ -22,9 +22,6 @@
 [submodule "my_plugins/open_file_under_cursor.vim"]
 	path = my_plugins/open_file_under_cursor.vim
 	url = https://github.com/amix/open_file_under_cursor.vim
-[submodule "my_plugins/vim-snipmate"]
-	path = my_plugins/vim-snipmate
-	url = https://github.com/garbas/vim-snipmate
 [submodule "my_plugins/ale"]
 	path = my_plugins/ale
 	url = https://github.com/w0rp/ale
@@ -85,3 +82,9 @@
 [submodule "my_plugins/vim-indentwise"]
 	path = my_plugins/vim-indentwise
 	url = git://github.com/jeetsukumaran/vim-indentwise
+[submodule "my_plugins/ultisnips"]
+	path = my_plugins/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "my_plugins/vim-snippets"]
+	path = my_plugins/vim-snippets
+	url = https://github.com/honza/vim-snippets

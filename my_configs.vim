@@ -7,6 +7,7 @@ au BufNewFile,BufRead *.conf.tmpl let &l:commentstring='#%s'
 autocmd QuickFixCmdPost Ggrep* cwindow
 au BufRead,BufNewFile *.md setlocal textwidth=80
 au BufRead,BufNewFile *.man setlocal textwidth=80
+au BufRead,BufNewFile *.tex :setfiletype tex
 au FocusGained,BufEnter * :silent! !
 au FocusLost,WinLeave * :silent! w
 
@@ -50,3 +51,4 @@ endtry
 
 " Disable tmux navigator when zooming the Vim pane
 let g:tmux_navigator_disable_when_zoomed = 1
+
