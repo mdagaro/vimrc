@@ -1,4 +1,4 @@
-[submodule "my_plugins/ctrlp.vim"]
+[ubmodule "my_plugins/ctrlp.vim"]
 	path = my_plugins/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "my_plugins/lightline.vim"]
@@ -31,9 +31,6 @@
 [submodule "color_schemes/vim-pyte"]
 	path = color_schemes/vim-pyte
 	url = https://github.com/therubymug/vim-pyte
-[submodule "my_plugins/vim-go"]
-	path = my_plugins/vim-go
-	url = https://github.com/fatih/vim-go
 [submodule "my_plugins/vim-addon-mw-utils"]
 	path = my_plugins/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils
