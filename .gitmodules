@@ -1,6 +1,3 @@
-[ubmodule "my_plugins/ctrlp.vim"]
-	path = my_plugins/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "my_plugins/lightline.vim"]
 	path = my_plugins/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
