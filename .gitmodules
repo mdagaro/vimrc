@@ -1,15 +1,6 @@
-[submodule "my_plugins/ack.vim"]
-	path = my_plugins/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
 [submodule "my_plugins/ctrlp.vim"]
 	path = my_plugins/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "my_plugins/goyo.vim"]
-	path = my_plugins/goyo.vim
-	url = https://github.com/junegunn/goyo.vim
-[submodule "my_plugins/vim-zenroom2"]
-	path = my_plugins/vim-zenroom2
-	url = https://github.com/amix/vim-zenroom2
 [submodule "my_plugins/lightline.vim"]
 	path = my_plugins/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
@@ -19,24 +10,12 @@
 [submodule "my_plugins/mru.vim"]
 	path = my_plugins/mru.vim
 	url = https://github.com/vim-scripts/mru.vim
-[submodule "my_plugins/open_file_under_cursor.vim"]
-	path = my_plugins/open_file_under_cursor.vim
-	url = https://github.com/amix/open_file_under_cursor.vim
-[submodule "my_plugins/ale"]
-	path = my_plugins/ale
-	url = https://github.com/w0rp/ale
 [submodule "my_plugins/vim-commentary"]
 	path = my_plugins/vim-commentary
 	url = https://github.com/tpope/vim-commentary
 [submodule "my_plugins/vim-fugitive"]
 	path = my_plugins/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "my_plugins/vim-multiple-cursors"]
-	path = my_plugins/vim-multiple-cursors
-	url = https://github.com/michaeljsmith/vim-indent-object
-[submodule "my_plugins/vim-yankstack"]
-	path = my_plugins/vim-yankstack
-	url = https://github.com/maxbrunsfeld/vim-yankstack
 [submodule "color_schemes/peaksea"]
 	path = color_schemes/peaksea
 	url = https://github.com/vim-scripts/peaksea
@@ -52,9 +31,6 @@
 [submodule "color_schemes/vim-pyte"]
 	path = color_schemes/vim-pyte
 	url = https://github.com/therubymug/vim-pyte
-[submodule "my_plugins/vim-markdown"]
-	path = my_plugins/vim-markdown
-	url = https://github.com/tpope/vim-markdown
 [submodule "my_plugins/vim-go"]
 	path = my_plugins/vim-go
 	url = https://github.com/fatih/vim-go
@@ -70,18 +46,12 @@
 [submodule "my_plugins/vim-surround"]
 	path = my_plugins/vim-surround
 	url = https://github.com/tpope/vim-surround
-[submodule "my_plugins/python-mode"]
-	path = my_plugins/python-mode
-	url = https://github.com/python-mode/python-mode
 [submodule "my_plugins/black"]
 	path = my_plugins/black
 	url = https://github.com/python/black
 [submodule "my_plugins/vim-tmux-navigator"]
 	path = my_plugins/vim-tmux-navigator
 	url = git://github.com/christoomey/vim-tmux-navigator.git
-[submodule "my_plugins/vim-indentwise"]
-	path = my_plugins/vim-indentwise
-	url = git://github.com/jeetsukumaran/vim-indentwise
 [submodule "my_plugins/ultisnips"]
 	path = my_plugins/ultisnips
 	url = https://github.com/SirVer/ultisnips
